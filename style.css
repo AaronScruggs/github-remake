@@ -1,0 +1,122 @@
+
+html{
+box-sizing:border-box;
+}
+
+*, *:after, *:before{
+box-sizing:inherit;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width:1020px;
+  height:1000px;
+  margin:auto;
+  display: flex;
+}
+
+#personal {
+  display:flex;
+  width:300px;
+  height:1000px;
+  background:white;
+    flex-direction: column;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-bottom: solid gray 1px;
+    align-items: center;
+}
+
+.handle {
+    text-align: center;
+    margin: 0px;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid gray 1px;
+}
+
+#repos {
+  width:720px;
+  height:1000px;
+  background:white;
+    display: flex;
+}
+
+#metrics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.repo_title {
+    text-align: center;
+}
+
+.blueify {
+    color: blue;
+}
+
+.profile_list {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.repo_item {
+    border-bottom: solid gray 1px;
+}
+
+h6 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.rating_item {
+    margin-bottom: 0px;
+}
+
+.metric_spacing {
+    margin-right: 30px;
+}
+
+h4 {
+    font:13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean
+}
+
+.info_text {
+    margin-bottom: 8px;
+}
+
+.blackify {
+    color:black;
+}
