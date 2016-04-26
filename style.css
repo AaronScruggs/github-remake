@@ -44,7 +44,14 @@ table {
     flex-direction: column;
 }
 
-#profile {
+#repos {
+  width:620px;
+  height:1000px;
+  background:white;
+    flex-direction: column;
+}
+
+.profile {
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -60,16 +67,11 @@ table {
 #information {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     border-bottom: solid gray 1px;
 }
 
-#repos {
-  width:720px;
-  height:1000px;
-  background:white;
-    display: flex;
-}
+
 
 #metrics {
     display: flex;
@@ -119,4 +121,8 @@ h4 {
 
 .blackify {
     color:black;
+}
+
+.gitProfile {
+    display: inline-block;
 }
